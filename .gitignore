@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+node_modules/*
+# Node modules (dependencies)
+node_modules/
+
+# Build output (Vite)
+dist/
+.vite/
+
+# Public assets (only if it contains built files, remove if you store static assets here)
+public/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+debug.log*
+
+# Editor/IDE settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dependency lock file (optional, ignore to avoid conflicts)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Tailwind CSS cache
+.tailwind/
+
+# TypeScript build cache (if using TypeScript)
+*.tsbuildinfo
+
+# Linting cache (optional)
+.eslintcache
+.stylelintcache
